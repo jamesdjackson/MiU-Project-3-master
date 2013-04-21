@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<!--James Jackson-->
+<!--MIU 1304-->
+<!--Project 3-->
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>PRINT KEEPER</title>
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="cleartype" content="on">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="only screen and (max-width: 485px)"/>
+		<script src="js/libs/modernizr.custom.min.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="index">
+			<div data-role="header" data-position="fixed" data-theme="a" id="firstHeader">
+				<h1>PRINT KEEPER</h1>
+			</div>
+			<div data-role="content" id="screenOne">
+                <div><img alt="Print Image"  src="Images/banner.png" width="280"/></div>
+				<p>Your Print Collection In Your Pocket</p>
+				<ul data-role="listview" data-inset="true" data-theme="a">
+					<li><a href="#categories" data-icon="arrow-r" data-iconpos="right" id="addButton">Browse Print Categories</a></li>
+				</ul>
+			</div>
+			<div data-role="footer" data-position="fixed" data-theme="a">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="about.html" class="ui-btn-active" data-icon="home">About</a></li>
+					<li><a href="https://github.com/jamesdjackson/MiU/tree/gh-pages" data-icon="grid">Github</a></li>
+					<li><a href="#enter" data-icon="plus">Add Print</a></li>
+				</ul>				
+			</div>
+			</div>
+		</div>
+		<div data-role="page" id="enter" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>PRINT KEEPER</h1>
+				<nav>
+					<a href="#enter" id="addNew" style="display: none">Add New Data</a>
+				</nav>
+			</div>
+			<div data-role="content">
+				<form action="#" method="post" id="printForm" onSubmit="stamp()" name="alerts">
+					<fieldset id="printFieldset">
+						<h1 class="add">Add A Print:</h1>
+						<p>*Required Fields:</p>
+						<ul id="errors"></ul>
+						<ul id="questions">
+							<li id="select"><label for="group">* Select an Artist</label></li>
+						</ul>
+						<h2 class="add">Print Info:</h2>
+						<div data-role="fieldcontain">
+							<label for="printName">*Print Name:</label>
+							<input type="text" name="name" id="printName" value="" />
+						</div>
+						<label for="approxDateOfPrint">Approximate Date of Print:</label>
+   						<input type="range" name="approxDateOfPrint" id="approxDateOfPrint" value="1700" min="1700" max="2013" step="5" />
+						<fieldset data-role="controlgroup" id="version">
+							<legend>School:</legend>
+								<input type="radio" name="version" id="Kaigetsudo" value="Kaigetsudo" checked="checked" />
+								<label for="Kaigetsudo">Kaigetsudo</label>
+						
+								<input type="radio" name="version" id="Torii" value="Torii"  />
+								<label for="Torii">Torii</label>
+						
+								<input type="radio" name="version" id="Katsukawa" value="Katsukawa" />
+								<label for="Katsukawa">Katsukawa</label>
+						
+								<input type="radio" name="version" id="Utagawa" value="Utagawa" />
+								<label for="Utagawa">Utagawa</label>
+								
+								<input type="radio" name="version" id="Sosaku" value="Sosaku"  />
+								<label for="Sosaku">Sosaku</label>
+						</fieldset>
+						<div data-role="fieldcontain">
+							<label for="value">*Value:</label>
+							<input type="text" name="value" id="value" value="" />
+						</div>
+						<div data-role="fieldcontain">
+							<label for="datePrinted">*Date Printed:</label>
+							<input type="text" name="datePrinted" id="datePrinted" value="" />
+						</div>
+						<div data-role="fieldcontain">
+							<label for="dateAdded">*Date Acquired:</label>
+							<input type="text" name="dateAdded" id="dateAdded" value="" />
+						</div>
+						<label for="additionalComments">Comments:</label>
+						<textarea name="additionalComments" id="additionalComments">
+						</textarea>
+					</fieldset>
+				<input type=hidden name="date">
+				<input type="submit" id="submit" value="Submit"/>
+				</form>
+			</div>
+			<div data-role="footer" data-position="fixed" data-theme="a">
+				<div data-role="navbar">
+				<ul>
+					<li><a href="#index" data-icon="home">Home</a></li>
+					<li><a href="#" id="displayLink">Display Records</a></li>
+					<li><a href="#" id="clear">Clear Records</a></li>
+				</ul>				
+			</div>
+			</div>
+		</div>
+		<div data-role="page" id="categories" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>PRINT KEEPER</h1>
+			</div>
+			<div data-role="content">
+				<fieldset id="browsePageFieldset">
+					<div id="indexPic"></div>
+					<div id="intro">"PRINTS BY CATEGORY"</div>
+					<div>.</div>
+                    <ul data-role="listview" data-inset="true" data-filter="true" id="searchButtons" data-theme="a">
+                        <div data-role="collapsible-set">
+                            <div data-role="collapsible" data-collapsed="true" data-theme="a" id="dnd">
+                                <h3>Kaigetsudo</h3>
+                                <div class="ui-grid-b">
+                                    <div class="ui-block-a"><img alt="Kaigetsudo" src="Images/Journey/printRecord2.jpg" width=90px height=90px />Kaigetsudo 1</div>
+                                    <div class="ui-block-b"><img alt="Kaigetsudo" src="Images/Journey/printRecord3.jpg" width=90px height=90px />Kaigetsudo 2</div>
+                                    <div class="ui-block-c"><img alt="Kaigetsudo" src="Images/Journey/printRecord4.jpg" width=90px height=90px />Kaigetsudo 3</div>
+                                    <div class="ui-block-a"><img alt="Kaigetsudo" src="Images/Journey/printRecord12.jpg" width=90px height=90px />Kaigetsudo 4</div>
+                                    <div class="ui-block-b"><img alt="Kaigetsudo" src="Images/Journey/printRecord13.jpg" width=90px height=90px />Kaigetsudo 5</div>
+                                    <div class="ui-block-c"><img alt="Kaigetsudo" src="Images/Journey/printRecord14.jpg" width=90px height=90px />Kaigetsudo 6</div>
+                                </div>
+                            </div>
+                            <div data-role="collapsible" data-collapsed="true" data-theme="a">
+                                <h3>Torii</h3>
+                                <div class="ui-grid-b">
+                                    <div class="ui-block-a"><img alt="Torii" src="Images/Journey/printRecord5.jpg" width=90px height=90px />Torii 1</div>
+                                    <div class="ui-block-b"><img alt="Torii" src="Images/Journey/printRecord6.jpg" width=90px height=90px />Torii 2</div>
+                                    <div class="ui-block-c"><img alt="Torii" src="Images/Journey/printRecord7.jpg" width=90px height=90px />Torii 3</div>
+                                </div>
+                            </div>
+                            <div data-role="collapsible" data-collapsed="true" data-theme="a">
+                                <h3>Katsukawa</h3>
+                                <div class="ui-grid-b">
+                                    <div class="ui-block-a"><img alt="Katsukawa" src="Images/Journey/printRecord8.jpg" width=90px height=90px />Katsukawa 1</div>
+                                    <div class="ui-block-b"><img alt="Katsukawa" src="Images/Journey/printRecord9.jpg" width=90px height=90px />Katsukawa 2</div>
+                                    <div class="ui-block-c"><img alt="Katsukawa" src="Images/Journey/printRecord10.jpg" width=90px height=90px />Katsukawa 3</div>
+                                </div>
+                            </div>
+                            <div data-role="collapsible" data-collapsed="true" data-theme="a">
+                                <h3>Utagawa</h3>
+                                <div class="ui-grid-b">
+                                    <div class="ui-block-a"><img alt="Utagawa" src="Images/Journey/printRecord11.jpg" width=90px height=90px />Utagawa 1</div>
+                                    <div class="ui-block-b"><img alt="Utagawa" src="Images/Journey/printRecord12.jpg" width=90px height=90px />Utagawa 2</div>
+                                    <div class="ui-block-c"><img alt="Utagawa" src="Images/Journey/printRecord13.jpg" width=90px height=90px />Utagawa 3</div>
+                                </div>
+                            </div>
+                            <div data-role="collapsible" data-collapsed="true" data-theme="a">
+                                <h3>Sosaku</h3>
+                                <div class="ui-grid-b">
+                                    <div class="ui-block-a"><img alt="Sosaku Hanga" src="Images/Journey/printRecord14.jpg" width=90px height=90px />Sosaku 1</div>
+                                    <div class="ui-block-b"><img alt="Sosaku Hanga" src="Images/Journey/printRecord15.jpg" width=90px height=90px />Sosaku 2</div>
+                                    <div class="ui-block-c"><img alt="Sosaku Hanga" src="Images/Journey/printRecord16.jpg" width=90px height=90px />Sosaku 3</div>
+                                </div>
+                         </div>
+                    </ul>
+				</fieldset>
+			</div>
+			<div data-role="footer" data-position="fixed" data-theme="a">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#index" data-icon="home">Home</a></li>
+						<li><a href="https://github.com/jamesdjackson/MiU/tree/gh-pages" data-icon="grid">Github</a></li>
+						<li><a href="#enter" data-icon="plus">Add Print</a></li>
+					</ul>				
+				</div>
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+        <script src="js/libs/jquery.validate.min.js"></script>
+		<script src="js/json.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+

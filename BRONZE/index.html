@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--James Jackson-->
+<!--MIU 1304-->
+<!--Project 3-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>PRINT KEEPER</title>
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="cleartype" content="on">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="only screen and (max-width: 485px)"/>
+		<script src="js/libs/modernizr.custom.min.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="index">
+			<div data-role="header" data-position="fixed" data-theme="a" id="firstHeader">
+				<h1>PRINT KEEPER</h1>
+			</div>
+			<div data-role="content" id="screenOne">
+				<div><img alt="Print Image" src="Images/banner.png" width="280"/></div>
+				<p>"Your Print Collection In Your Pocket!"</p>
+			</div>
+			<div data-role="footer" data-position="fixed" data-theme="a">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#Artists" class="ui-btn-active" data-icon="home">View Artists</a></li>
+					<li><a href="about.html" class="ui-btn-active" data-icon="home">About App</a></li>
+					<li><a href="#addPrint" data-icon="plus">Add New Print</a></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		<div data-role="page" id="addPrint" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>My Print Collection</h1>
+				<nav>
+					<a href="#addPrint" id="addNew" style="display: none">Add New Data</a>
+				</nav>
+			</div>
+			<div data-role="content">
+				<form action="#" method="post" id="printForm" >
+					<fieldset id="printFieldset">
+						<h1 class="add">Add Print:</h1>
+						<p>*Required Fields:</p>
+						<ul id="errors"></ul>
+						<ul id="questions">
+							<li id="select"><label for="group">* Select Artist</label></li>
+						</ul>
+
+						<h2 class="add">Print Info:</h2>
+						<div data-role="fieldcontain">
+							<label for="printName">*Print Name:</label>
+							<input type="text" name="name" id="printName" value="Print Name">
+						</div>
+						<label for="approxDateOfPrint">Approximate Date of Print:</label>
+   						<input type="range" name="approxDateOfPrint" id="approxDateOfPrint" value="1700" min="1700" max="2013" step="5" />
+						<fieldset data-role="controlgroup" id="version">
+							<legend>School:</legend>
+								<input type="radio" name="version" id="Kaigetsudo" value="choice-1" checked="checked" />
+								<label for="Kaigetsudo">Kaigetsudo</label>
+						
+								<input type="radio" name="version" id="Torii" value="Torii"  />
+								<label for="Torii">Torii</label>
+						
+								<input type="radio" name="version" id="Katsukawa" value="Katsukawa"  />
+								<label for="Katsukawa">Katsukawa</label>
+						
+								<input type="radio" name="version" id="Utagawa" value="Utagawa"  />
+								<label for="Utagawa">Utagawa</label>
+								
+								<input type="radio" name="version" id="Sosaku" value="Sosaku"  />
+								<label for="Sosaku">Sosaku</label>
+						</fieldset>
+						<div data-role="fieldcontain">
+							<label for="value">*Value:</label>
+							<input type="text" name="value" id="value" value="" />
+						</div>
+						<div data-role="fieldcontain">
+							<label for="datePrinted">*Date Printed:</label>
+							<input type="text" name="datePrinted" id="datePrinted" value="" />
+						</div>
+						<div data-role="fieldcontain">
+							<label for="dateAdded">*Date Acquired:</label>
+							<input type="text" name="dateAdded" id="dateAdded" value="" />
+						</div>
+						<label for="additionalComments">Comments:</label>
+						<textarea name="additionalComments" id="additionalComments"></textarea>
+                        <input type="submit" id="submit" value="Submit">
+					</fieldset>
+
+				</form>
+			</div>
+			<div data-role="footer" data-position="fixed" data-theme="a">
+				<div data-role="navbar">
+				<ul>
+					<li><a href="#index" data-icon="home">Home</a></li>
+					<li><a href="#" id="displayLink">Display Records</a></li>
+					<li><a href="#" id="clear">Clear Records</a></li>
+				</ul>				
+			</div>
+			</div>
+		</div>
+		<div data-role="page" id="Artists" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>PRINT KEEPER</h1>
+			</div>
+			<div data-role="content">
+				<fieldset id="browsePageFieldset">
+					<div id=indexPic></div>
+					<div id="intro">YOUR COLLECTION BY ARTIST</div>
+					<div>.</div>
+						<ul data-role="listview" data-inset="true" data-filter="true" id="searchButtons" data-theme="a">
+							<li><a href="#Hokusai" data-icon="arrow-r" data-iconpos="right">
+								<div class="ui-grid-b">
+									<div class="ui-block-a"><img alt="Hokusai" src="/BRONZE/Images/Hokusai.png" width=55px height=55px /></div>
+									<div class="ui-block-b">Hokusai</div>
+								</div></a>
+							</li>
+							<li><a href="#Kuniyoshi" data-icon="arrow-r" data-iconpos="right">
+								<div class="ui-grid-b">
+									<div class="ui-block-a"><img alt="Kuniyoshi" src="/BRONZE/Images/Kuniyoshi.png" width=55px height=55px /></div>
+									<div class="ui-block-b">Kuniyoshi</div>
+								</div></a>
+							</li>
+							<li><a href="#Yoshitoshi" data-icon="Yoshitoshi" data-iconpos="right">
+								<div class="ui-grid-b">
+									<div class="ui-block-a"><img alt="Yoshitoshi" src="/BRONZE/Images/Yoshitoshi.png" width=55px height=55px /></div>
+									<div class="ui-block-b">Yoshitoshi</div>
+								</div></a>
+							</li>
+							<li><a href="#addPrint" data-icon="arrow-r" data-iconpos="right" id="startButton">Add An Artist</a></li>
+						</ul>
+					</div>
+				</fieldset>
+			</div>
+			<div data-role="footer" data-position="fixed" data-theme="a">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#index" data-icon="home">Home</a></li>
+						<li><a href="https://github.com/jamesdjackson/MiU/tree/gh-pages" data-icon="grid">Github</a></li>
+						<li><a href="#addPrint" data-icon="plus">Add Print</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div data-role="page" id="Hokusai">
+			<div data-role="header" data-position="fixed" data-theme="a" id="hokusaiHeader">
+				<h1>PRINT KEEPER</h1>
+			</div>
+			<div data-role="content" id="Hokusai1">
+				<p>"My Hokusai Print Collection"</p>
+				<div class="ui-grid-b">
+					<div class="ui-block-a"><img alt="19-20" src="/BRONZE/Images/Journey/printRecord19.jpg" width=55px height=55px /></div>
+                    <div class="ui-block-b">Jouney To The West: Print Nineteen</div>
+				</div>
+				<div class="ui-grid-b">
+					<div class="ui-block-a"><img alt="19-20" src="/BRONZE/Images/Journey/printRecord20.jpg" width=55px height=55px /></div>
+					<div class="ui-block-b">Jouney To The West: Print Twenty</div>
+				</div>
+				<div class="ui-grid-b">
+					<div class="ui-block-a"><img alt="19-20" src="/BRONZE/Images/Journey/printRecord21.jpg" width=55px height=55px /></div>
+					<div class="ui-block-b">Jouney To The West: Print Twenty One</div>
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed" data-theme="a">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#index" class="ui-btn-active" data-icon="home">Home</a></li>
+					<li><a href="https://github.com/jamesdjackson/MiU/tree/gh-pages" data-icon="grid">Github</a></li>
+					<li><a href="#addPrint" data-icon="plus">Add Print</a></li>
+				</ul>				
+			</div>
+			</div>
+		</div>
+		<div data-role="page" id="Kuniyoshi">
+			<div data-role="header" data-position="fixed" data-theme="a" id="kuniyoshiHeader">
+				<h1>PRINT KEEPER</h1>
+			</div>
+			<div data-role="content" id="Kuniyoshi1">
+				<p>My Kuniyoshi Prints</p>
+				<div class="ui-grid-b">
+					<div class="ui-block-a"><img alt="16-18" src="/BRONZE/Images/Journey/printRecord16.jpg" width=55px height=55px /></div>
+                    <div class="ui-block-b">Jouney To The West: Print Sixteen</div>
+				</div>
+				<div class="ui-grid-b">
+					<div class="ui-block-a"><img alt="16-18" src="/BRONZE/Images/Journey/printRecord17.jpg" width=55px height=55px /></div>
+					<div class="ui-block-b">Jouney To The West: Print Seventeen</div>
+				</div>
+				<div class="ui-grid-b">
+					<div class="ui-block-a"><img alt="16-18" src="/BRONZE/Images/Journey/printRecord18.jpg" width=55px height=55px /></div>
+					<div class="ui-block-b">Jouney To The West: Print Eight-teen</div>
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed" data-theme="a">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#index" class="ui-btn-active" data-icon="home">Home</a></li>
+					<li><a href="https://github.com/jamesdjackson/MiU/tree/gh-pages" data-icon="grid">Github</a></li>
+					<li><a href="#addPrint" data-icon="plus">Add Print</a></li>
+				</ul>				
+			</div>
+			</div>
+		</div>
+		<div data-role="page" id="Yoshitoshi">
+			<div data-role="header" data-position="fixed" data-theme="a" id="yoshitoshiHeader">
+				<h1>My Yoshitoshi Print Collection</h1>
+			</div>
+			<div data-role="content" id="Yoshitoshi1">
+				<p>"Your Print collection at your fingertips!"</p>
+				<div class="ui-grid-b">
+					<div class="ui-block-a"><img alt="13-15" src="/BRONZE/Images/Journey/printRecord13.jpg" width=55px height=55px /></div>
+                    <div class="ui-block-b">Jouney To The West: Print Thirteen</div>
+				</div>
+				<div class="ui-grid-b">
+					<div class="ui-block-a"><img alt="13-15" src="/BRONZE/Images/Journey/printRecord14.jpg" width=55px height=55px /></div>
+					<div class="ui-block-b">Jouney To The West: Print Fourteen</div>
+				</div>
+				<div class="ui-grid-b">
+					<div class="ui-block-a"><img alt="13-15" src="/BRONZE/Images/Journey/printRecord15.jpg" width=55px height=55px /></div>
+                    <div class="ui-block-b">Jouney To The West: Print Fifteen</div>
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed" data-theme="a">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#index" class="ui-btn-active" data-icon="home">Home</a></li>
+					<li><a href="https://github.com/jamesdjackson/MiU/tree/gh-pages" data-icon="grid">Github</a></li>
+					<li><a href="#addPrint" data-icon="plus">Add Print</a></li>
+				</ul>				
+			</div>
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+        <script src="js/libs/jquery.validate.min.js"></script>
+		<script src="js/json.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
