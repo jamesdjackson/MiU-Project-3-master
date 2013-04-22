@@ -20,15 +20,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BRONZE/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="jquery.validate.min.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BRONZE/js/libs/jquery.validate.min.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,9 +33,7 @@
         <entry file="file://$PROJECT_DIR$/BRONZE/js/libs/modernizr.custom.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,7 +41,7 @@
       <file leaf-file-name="json.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BRONZE/js/json.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="244" column="52" selection-start="12833" selection-end="12833" vertical-scroll-proportion="0.0">
+            <state line="77" column="21" selection-start="3880" selection-end="3880" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,7 +50,7 @@
       <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BRONZE/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="10" selection-start="286" selection-end="554" vertical-scroll-proportion="-8.32">
+            <state line="13" column="10" selection-start="286" selection-end="554" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,10 +59,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BRONZE/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="237" column="14" selection-start="10401" selection-end="10454" vertical-scroll-proportion="-24.12">
-              <folding>
-                <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="6" column="13" selection-start="97" selection-end="626" vertical-scroll-proportion="-3.84">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,9 +78,7 @@
         <entry file="file://$PROJECT_DIR$/GOLD/js/json.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="237" column="22" selection-start="12433" selection-end="12433" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,7 +86,7 @@
       <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GOLD/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1237" selection-end="1237" vertical-scroll-proportion="-21.76">
+            <state line="9" column="8" selection-start="99" selection-end="552" vertical-scroll-proportion="-5.76">
               <folding />
             </state>
           </provider>
@@ -110,8 +95,21 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GOLD/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="191" column="0" selection-start="10033" selection-end="10033" vertical-scroll-proportion="3.3693495">
-              <folding />
+            <state line="118" column="28" selection-start="4887" selection-end="4887" vertical-scroll-proportion="0.20611916">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GOLD/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="291" column="0" selection-start="8928" selection-end="8928" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/APP-A/css/style.css" />
         <option value="$PROJECT_DIR$/APP-A/index.html" />
         <option value="$PROJECT_DIR$/APP-A/js/main.js" />
         <option value="$PROJECT_DIR$/APP-B/index.html" />
@@ -141,15 +138,15 @@
         <option value="$PROJECT_DIR$/BRONZE/about.html" />
         <option value="$PROJECT_DIR$/GOLD/about.html" />
         <option value="$PROJECT_DIR$/BRONZE/index.html" />
+        <option value="$PROJECT_DIR$/GOLD/js/main.js" />
         <option value="$PROJECT_DIR$/GOLD/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1920" />
-    <option name="y" value="-451" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="y" value="22" />
+    <option name="width" value="856" />
+    <option name="height" value="829" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -177,7 +174,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,146 +224,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GOLD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiU-Project-3-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiU-Project-3-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GOLD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiU-Project-3-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiU-Project-3-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GOLD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiU-Project-3-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiU-Project-3-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="BRONZE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiU-Project-3-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiU-Project-3-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRONZE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiU-Project-3-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiU-Project-3-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRONZE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiU-Project-3-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiU-Project-3-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRONZE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiU-Project-3-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiU-Project-3-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRONZE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,13 +270,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-451" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="856" height="829" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23036373" sideWeight="0.98123044" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17399618" sideWeight="0.96753925" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -491,7 +354,9 @@
     <entry file="file://$PROJECT_DIR$/GOLD/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="215" column="13" selection-start="0" selection-end="8953" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -524,15 +389,6 @@
     <entry file="file://$PROJECT_DIR$/BRONZE/js/libs/modernizr.custom.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BRONZE/js/json.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="52" selection-start="12833" selection-end="12833" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -546,7 +402,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BRONZE/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="10" selection-start="286" selection-end="554" vertical-scroll-proportion="-8.32">
+        <state line="13" column="10" selection-start="286" selection-end="554" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -561,39 +417,46 @@
     <entry file="file://$PROJECT_DIR$/GOLD/js/json.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="237" column="22" selection-start="12433" selection-end="12433" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BRONZE/js/json.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="21" selection-start="3880" selection-end="3880" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GOLD/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="291" column="0" selection-start="8928" selection-end="8928" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GOLD/js/main.js">
+    <entry file="file://$PROJECT_DIR$/GOLD/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="4" selection-start="8096" selection-end="8096" vertical-scroll-proportion="0.0">
+        <state line="9" column="8" selection-start="99" selection-end="552" vertical-scroll-proportion="-5.76">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BRONZE/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="14" selection-start="10401" selection-end="10454" vertical-scroll-proportion="-24.12">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GOLD/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1237" selection-end="1237" vertical-scroll-proportion="-21.76">
+        <state line="6" column="13" selection-start="97" selection-end="626" vertical-scroll-proportion="-3.84">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GOLD/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="0" selection-start="10033" selection-end="10033" vertical-scroll-proportion="3.3693495">
-          <folding />
+        <state line="118" column="28" selection-start="4887" selection-end="4887" vertical-scroll-proportion="0.20611916">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

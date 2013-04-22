@@ -4,17 +4,17 @@
 <!--MIU 1304-->
 <!--Project 3-->
 
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 	<head>
-		<meta charset="utf-8">
-		<title>PRINT KEEPER</title>
-		<meta name="HandheldFriendly" content="True">
-		<meta name="MobileOptimized" content="320"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="cleartype" content="on">
-		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" media="only screen and (max-width: 485px)"/>
-		<script src="js/libs/modernizr.custom.min.js"></script>
+        <meta charset="utf-8">
+        <title>PRINT KEEPER</title>
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="cleartype" content="on">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="only screen and (max-width: 485px)"/>
+        <script src="js/libs/modernizr.custom.min.js"></script>
 	</head>
 	<body>
 		<div data-role="page" id="index">
@@ -116,9 +116,8 @@
 				<fieldset id="browsePageFieldset">
 					<div id="indexPic"></div>
 					<div id="intro">"PRINTS BY CATEGORY"</div>
-					<div>.</div>
-                    <ul data-role="listview" data-inset="true" data-filter="true" id="searchButtons" data-theme="a">
-                        <div data-role="collapsible-set">
+                        <br>
+                        <div data-role="listview" data-filter="true">
                             <div data-role="collapsible" data-collapsed="true" data-theme="a" id="dnd">
                                 <h3>Kaigetsudo</h3>
                                 <div class="ui-grid-b">
@@ -130,6 +129,7 @@
                                     <div class="ui-block-c"><img alt="Kaigetsudo" src="Images/Journey/printRecord14.jpg" width=90px height=90px />Kaigetsudo 6</div>
                                 </div>
                             </div>
+
                             <div data-role="collapsible" data-collapsed="true" data-theme="a">
                                 <h3>Torii</h3>
                                 <div class="ui-grid-b">
@@ -138,6 +138,7 @@
                                     <div class="ui-block-c"><img alt="Torii" src="Images/Journey/printRecord7.jpg" width=90px height=90px />Torii 3</div>
                                 </div>
                             </div>
+
                             <div data-role="collapsible" data-collapsed="true" data-theme="a">
                                 <h3>Katsukawa</h3>
                                 <div class="ui-grid-b">
@@ -146,6 +147,7 @@
                                     <div class="ui-block-c"><img alt="Katsukawa" src="Images/Journey/printRecord10.jpg" width=90px height=90px />Katsukawa 3</div>
                                 </div>
                             </div>
+
                             <div data-role="collapsible" data-collapsed="true" data-theme="a">
                                 <h3>Utagawa</h3>
                                 <div class="ui-grid-b">
@@ -154,6 +156,7 @@
                                     <div class="ui-block-c"><img alt="Utagawa" src="Images/Journey/printRecord13.jpg" width=90px height=90px />Utagawa 3</div>
                                 </div>
                             </div>
+
                             <div data-role="collapsible" data-collapsed="true" data-theme="a">
                                 <h3>Sosaku</h3>
                                 <div class="ui-grid-b">
@@ -162,7 +165,8 @@
                                     <div class="ui-block-c"><img alt="Sosaku Hanga" src="Images/Journey/printRecord16.jpg" width=90px height=90px />Sosaku 3</div>
                                 </div>
                          </div>
-                    </ul>
+                     </div>
+
 				</fieldset>
 			</div>
 			<div data-role="footer" data-position="fixed" data-theme="a">
