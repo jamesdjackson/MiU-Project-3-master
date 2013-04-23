@@ -25,20 +25,21 @@
                 <div><img alt="Print Image"  src="Images/banner.png" width="280"/></div>
 				<p>Your Print Collection In Your Pocket</p>
 				<ul data-role="listview" data-inset="true" data-theme="a">
-					<li><a href="#categories" data-icon="arrow-r" data-iconpos="right" id="addButton">Browse Print Categories</a></li>
+					<li><a href="#categories" data-transition="fade" data-icon="arrow-r" data-iconpos="right" id="addButton">Browse Print Categories</a></li>
 				</ul>
 			</div>
 			<div data-role="footer" data-position="fixed" data-theme="a">
 			<div data-role="navbar">
 				<ul>
-					<li><a href="about.html" class="ui-btn-active" data-icon="home">About</a></li>
+					<li><a href="about.html" class="ui-btn-active" data-icon="info">About</a></li>
 					<li><a href="https://github.com/jamesdjackson/MiU/tree/gh-pages" data-icon="grid">Github</a></li>
 					<li><a href="#enter" data-icon="plus">Add Print</a></li>
 				</ul>				
 			</div>
 			</div>
 		</div>
-		<div data-role="page" id="enter" data-add-back-btn="true">
+
+        <div data-role="page" id="enter" data-add-back-btn="true">
 			<div data-role="header" data-position="fixed" data-theme="a">
 				<h1>PRINT KEEPER</h1>
 				<nav>
@@ -57,10 +58,10 @@
 						<h2 class="add">Print Info:</h2>
 						<div data-role="fieldcontain">
 							<label for="printName">*Print Name:</label>
-							<input type="text" name="name" id="printName" value="" />
+							<input type="text" name="name" id="printName" placeholder="Print Name" value="" />
 						</div>
 						<label for="approxDateOfPrint">Approximate Date of Print:</label>
-   						<input type="range" name="approxDateOfPrint" id="approxDateOfPrint" value="1700" min="1700" max="2013" step="5" />
+   						<input type="range" name="approxDateOfPrint" id="approxDateOfPrint" value="1850" min="1700" max="2013" step="5" />
 						<fieldset data-role="controlgroup" id="version">
 							<legend>School:</legend>
 								<input type="radio" name="version" id="Kaigetsudo" value="Kaigetsudo" checked="checked" />
@@ -80,18 +81,18 @@
 						</fieldset>
 						<div data-role="fieldcontain">
 							<label for="value">*Value:</label>
-							<input type="text" name="value" id="value" value="" />
+							<input type="text" name="value" placeholder="$1,200" id="value" value="" />
 						</div>
 						<div data-role="fieldcontain">
 							<label for="datePrinted">*Date Printed:</label>
-							<input type="text" name="datePrinted" id="datePrinted" value="" />
+							<input type="text" name="datePrinted" placeholder="YYYYMMDD" id="datePrinted" value="" />
 						</div>
 						<div data-role="fieldcontain">
 							<label for="dateAdded">*Date Acquired:</label>
-							<input type="text" name="dateAdded" id="dateAdded" value="" />
+							<input type="text" name="dateAdded" placeholder="YYYYMMDD" id="dateAdded" value="" />
 						</div>
 						<label for="additionalComments">Comments:</label>
-						<textarea name="additionalComments" id="additionalComments">
+						<textarea name="additionalComments" placeholder="Your Comments" id="additionalComments">
 						</textarea>
 					</fieldset>
 				<input type=hidden name="date">
@@ -101,7 +102,7 @@
 			<div data-role="footer" data-position="fixed" data-theme="a">
 				<div data-role="navbar">
 				<ul>
-					<li><a href="#index" data-icon="home">Home</a></li>
+                    <li><a href="#index" data-transition="pop" data-icon="home">Home</a></li>
 					<li><a href="#" id="displayLink">Display Records</a></li>
 					<li><a href="#" id="clear">Clear Records</a></li>
 				</ul>				
@@ -118,7 +119,7 @@
 					<div id="intro">"PRINTS BY CATEGORY"</div>
                         <br>
                         <div data-role="listview" data-filter="true">
-                            <div data-role="collapsible" data-collapsed="true" data-theme="a" id="dnd">
+                            <div data-role="collapsible" data-collapsed="true" data-theme="a" id="a">
                                 <h3>Kaigetsudo</h3>
                                 <div class="ui-grid-b">
                                     <div class="ui-block-a"><img alt="Kaigetsudo" src="Images/Journey/printRecord2.jpg" width=90px height=90px />Kaigetsudo 1</div>
@@ -166,19 +167,52 @@
                                 </div>
                          </div>
                      </div>
-
 				</fieldset>
 			</div>
 			<div data-role="footer" data-position="fixed" data-theme="a">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#index" data-icon="home">Home</a></li>
-						<li><a href="https://github.com/jamesdjackson/MiU/tree/gh-pages" data-icon="grid">Github</a></li>
-						<li><a href="#enter" data-icon="plus">Add Print</a></li>
-					</ul>				
+						<li><a href="#index" data-transition="pop" data-icon="home">Home</a></li>
+						<li><a href="https://github.com/jamesdjackson/MiU/tree/gh-pages" data-transition="fade" data-icon="grid">Github</a></li>
+						<li><a href="#enter" data-transition="slideup" data-icon="plus">Add Print</a></li>
+                        <li><a href="#prompt" data-transition="pop" data-icon="plus">Prompt</a></li>
+
+
+
+                    </ul>
 				</div>
 			</div>
 		</div>
+
+
+        <div data-role ="page" id ="prompt" >
+            <div data-role =" header" >
+                <h1 > Book Properties </h1 >
+            </div >
+            <div data-role =" content" >
+                <a href ="#confirmation" data-rel =" dialog" data-transition =" pop" data-role =" button" > Delete this book </a >
+                <a href ="" data-role =" button" > Modify this book </a >
+            </div >
+
+
+            </div >
+
+
+        <div data-role ="page" id ="confirmation" >
+            <div data-role =" header" >
+                <h1 > Confirmation </h1 >
+            </div > <div data-role =" content" >
+                <h2 > Are you sure you want to delete this book? </h2 >
+                    <a href ="delete-yes.html" data-role ="button" > Yes, delete </a >
+                    <a href ="delete.html" data-role ="button" > Cancel </a > </div >
+            </div >
+
+
+
+
+
+
+
 		<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
         <script src="js/libs/jquery.validate.min.js"></script>

@@ -8,6 +8,10 @@
 // Wait until the DOM has loaded
 window.addEventListener("DOMContentLoaded", function () {
 
+    $(document).ready(function() {
+        $('h1').slideDown('slow');
+    });
+
 // getting element by ID
 function main(i) {
 	var theElement = document.getElementById(i);
@@ -74,7 +78,7 @@ function storeData(key) {
 		item.printName    = ["Print Name:", main("printName").value];
 		item.approxDateOfPrint    = ["Quantity:", main("approxDateOfPrint").value];
 		item.version     = ["School:", versionValue];
-		item.value        = ["Cost:", main("value").value];
+		item.value        = ["Value:", main("value").value];
 		item.datePrinted   = ["Date Printed:", main("datePrinted").value];
 		item.dateAdded     = ["Date Acquired:", main("dateAdded").value];
 		item.additionalComments = ["Comments:", main("additionalComments").value];

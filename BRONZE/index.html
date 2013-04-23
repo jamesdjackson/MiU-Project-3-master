@@ -49,14 +49,13 @@
 						<ul id="questions">
 							<li id="select"><label for="group">* Select Artist</label></li>
 						</ul>
-
 						<h2 class="add">Print Info:</h2>
 						<div data-role="fieldcontain">
 							<label for="printName">*Print Name:</label>
-							<input type="text" name="name" id="printName" value="Print Name">
+							<input type="text" name="name" id="printName" placeholder="Print Name Here" value="Print Name">
 						</div>
 						<label for="approxDateOfPrint">Approximate Date of Print:</label>
-   						<input type="range" name="approxDateOfPrint" id="approxDateOfPrint" value="1700" min="1700" max="2013" step="5" />
+   						<input type="range" name="approxDateOfPrint" id="approxDateOfPrint" value="1850" min="1700" max="2013" step="5" />
 						<fieldset data-role="controlgroup" id="version">
 							<legend>School:</legend>
 								<input type="radio" name="version" id="Kaigetsudo" value="choice-1" checked="checked" />
@@ -76,21 +75,20 @@
 						</fieldset>
 						<div data-role="fieldcontain">
 							<label for="value">*Value:</label>
-							<input type="text" name="value" id="value" value="" />
+							<input type="text" name="value" placeholder="$1,200" id="value" value="" />
 						</div>
 						<div data-role="fieldcontain">
 							<label for="datePrinted">*Date Printed:</label>
-							<input type="text" name="datePrinted" id="datePrinted" value="" />
+							<input type="text" name="datePrinted" placeholder="YYYYMMDD" id="datePrinted" value="" />
 						</div>
 						<div data-role="fieldcontain">
 							<label for="dateAdded">*Date Acquired:</label>
-							<input type="text" name="dateAdded" id="dateAdded" value="" />
+							<input type="text" name="dateAdded" placeholder="YYYYMMDD" id="dateAdded" value="" />
 						</div>
 						<label for="additionalComments">Comments:</label>
 						<textarea name="additionalComments" id="additionalComments"></textarea>
-                        <input type="submit" id="submit" value="Submit">
+                        <input type="submit" id="submit" placeholder="Your comments here" value="Submit">
 					</fieldset>
-
 				</form>
 			</div>
 			<div data-role="footer" data-position="fixed" data-theme="a">
