@@ -1,3 +1,4 @@
+
 /*
  <!--James Jackson->
  <!--MIU1304-->
@@ -13,6 +14,7 @@ var json = {
         "approxValue":        ["Value:", "$1500.00"],
         "datePrint":   ["Date Printed:", "1831"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord2": {
@@ -23,6 +25,7 @@ var json = {
         "approxValue":        ["Value:", "$1200.00"],
         "datePrint":   ["Date Printed:", "1885"],
         "dateAdded":     ["Date Acquired:", "2010"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord3": {
@@ -33,6 +36,7 @@ var json = {
         "approxValue":        ["Value:", "$1400.00"],
         "datePrint":   ["Date Printed:", "1844"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord4": {
@@ -43,6 +47,7 @@ var json = {
         "approxValue":        ["Value:", "$1500.00"],
         "datePrint":   ["Date Printed:", "1833"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord5": {
@@ -53,6 +58,7 @@ var json = {
         "approxValue":        ["Value:", "$1200.00"],
         "datePrint":   ["Date Printed:", "1863"],
         "dateAdded":     ["Date Acquired:", "2010"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord6": {
@@ -63,6 +69,7 @@ var json = {
         "approxValue":        ["Value:", "$1400.00"],
         "datePrint":   ["Date Printed:", "1852"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord7": {
@@ -73,6 +80,7 @@ var json = {
         "approxValue":        ["Value:", "$1500.00"],
         "datePrint":   ["Date Printed:", "1832"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord8": {
@@ -83,6 +91,7 @@ var json = {
         "approxValue":        ["Value:", "$1200.00"],
         "datePrint":   ["Date Printed:", "1886"],
         "dateAdded":     ["Date Acquired:", "2010"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord9": {
@@ -93,6 +102,7 @@ var json = {
         "approxValue":        ["Value:", "$1400.00"],
         "datePrint":   ["Date Printed:", "1848"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord10": {
@@ -103,6 +113,7 @@ var json = {
         "approxValue":        ["Value:", "$1500.00"],
         "datePrint":   ["Date Printed:", "1836"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord11": {
@@ -113,6 +124,7 @@ var json = {
         "approxValue":        ["Value:", "$1200.00"],
         "datePrint":   ["Date Printed:", "1886"],
         "dateAdded":     ["Date Acquired:", "2010"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord12": {
@@ -123,6 +135,7 @@ var json = {
         "approxValue":        ["Value:", "$1400.00"],
         "datePrint":   ["Date Printed:", "1850"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord13": {
@@ -133,6 +146,7 @@ var json = {
         "approxValue":        ["Value:", "$1500.00"],
         "datePrint":   ["Date Printed:", "1832"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord14": {
@@ -143,6 +157,7 @@ var json = {
         "approxValue":        ["Value:", "$1200.00"],
         "datePrint":   ["Date Printed:", "1886"],
         "dateAdded":     ["Date Acquired:", "2010"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord15": {
@@ -153,6 +168,7 @@ var json = {
         "approxValue":        ["Value:", "$1400.00"],
         "datePrint":   ["Date Printed:", "1857"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord16": {
@@ -163,6 +179,7 @@ var json = {
         "approxValue":        ["Value:", "$1500.00"],
         "datePrint":   ["Date Printed:", "1833"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord17": {
@@ -173,6 +190,7 @@ var json = {
         "approxValue":        ["Value:", "$1200.00"],
         "datePrint":   ["Date Printed:", "1865"],
         "dateAdded":     ["Date Acquired:", "2010"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord18": {
@@ -183,6 +201,7 @@ var json = {
         "approxValue":        ["Value:", "$1400.00"],
         "datePrint":   ["Date Printed:", "1848"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord19": {
@@ -193,6 +212,7 @@ var json = {
         "approxValue":        ["Value:", "$1500.00"],
         "datePrint":   ["Date Printed:", "1835"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord20": {
@@ -203,6 +223,7 @@ var json = {
         "approxValue":        ["Value:", "$1200.00"],
         "datePrint":   ["Date Printed:", "1891"],
         "dateAdded":     ["Date Acquired:", "2010"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord21": {
@@ -213,6 +234,7 @@ var json = {
         "approxValue":        ["Value:", "$1400.00"],
         "datePrint":   ["Date Printed:", "1847"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord22": {
@@ -223,6 +245,7 @@ var json = {
         "approxValue":        ["Value:", "$1500.00"],
         "datePrint":   ["Date Printed:", "1834"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord23": {
@@ -233,6 +256,7 @@ var json = {
         "approxValue":        ["Value:", "$1200.00"],
         "datePrint":   ["Date Printed:", "1864"],
         "dateAdded":     ["Date Acquired:", "2010"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     },
     "printRecord24": {
@@ -243,6 +267,7 @@ var json = {
         "approxValue":        ["Value:", "$1400.00"],
         "datePrint":   ["Date Printed:", "1852"],
         "dateAdded":     ["Date Acquired:", "2012"],
+        "recordComplete":    ["Record Complete?"],
         "additionalComments": ["Comments:", "Woodblock print (nishiki-e); ink and color on paper"]
     }
 };

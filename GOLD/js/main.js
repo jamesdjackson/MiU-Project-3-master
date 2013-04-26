@@ -8,9 +8,8 @@
 // Wait until the DOM has loaded
 window.addEventListener("DOMContentLoaded", function () {
 
-    $(document).ready(function() {
-        $('h1').slideDown('slow');
-    });
+
+
 
 // getting element by ID
 function main(i) {
@@ -20,26 +19,26 @@ function main(i) {
 
 // create select field element and populate it with options on the fly
 function makeCats() {
-	var formTag = document.getElementsByTagName("form");    // array of all the form tags
-		makeSelect = document.createElement("select");		// create the select tag
-	var	selectLi = main("select");							// setting that select tag
-		makeSelect.setAttribute("id", "groups");			// creating the select tag
-	for (var i = 0; i < printArtists.length; i++) {			// looping through the printArtists array
-		var makeOption = document.createElement("option");  // setting the option tag
-		var optText = printArtists[i];					    // set the elements
-		makeOption.setAttribute("value", optText);  		// creating the option tag
-		makeOption.innerHTML = optText;						// creating the option tag
-		makeSelect.appendChild(makeOption);					// creating a select tag
+	var formTag = document.getElementsByTagName("form");
+		makeSelect = document.createElement("select");
+	var	selectLi = main("select");
+		makeSelect.setAttribute("id", "groups");
+	for (var i = 0; i < printArtists.length; i++) {
+		var makeOption = document.createElement("option");
+		var optText = printArtists[i];
+		makeOption.setAttribute("value", optText);
+		makeOption.innerHTML = optText;
+		makeSelect.appendChild(makeOption);
 	}			
 	selectLi.appendChild(makeSelect);
 }
 
 // find value of selected radio button
 function getSelectedRadio() {
-	var radios = document.forms[0].version;
+	var radios = document.forms[0].school;
 	for (var i=0; i < radios.length; i++){
 		if (radios[i].checked) {
-			versionValue = radios[i].value;
+			schoolValue = radios[i].value;
 		}
 	}
 }
@@ -64,10 +63,28 @@ function toggleControls(n) {
 			return false;
 	}
 }
+/*    function retrieveToggle(){
+        if(main('recordComplete').checked) {
+            recordComplete = 'Yes';
+        }else{
+            recordComplete = 'No'
+        }
+    }
+
+
+    function retrieveCheckbox(){
+        if(main('personalCollection').checked) {
+            personalCollection  = 'Yes';
+        }else{
+            personalCollection  = 'No'
+        }
+    }
+*/
+
 // function for storing input data from form
 function storeData(key) {
 	if(!key) {
-		var id = Math.floor(Math.random() * 1000001);
+		var id = Math.floor(Math.random() * 19761001);
 	} else {
 		id = key;
 	}
@@ -76,13 +93,14 @@ function storeData(key) {
 	var item             = {};
 		item.group       = ["Group:", main("groups").value];
 		item.printName    = ["Print Name:", main("printName").value];
-		item.approxDateOfPrint    = ["Quantity:", main("approxDateOfPrint").value];
-		item.version     = ["School:", versionValue];
+		item.approxDateOfPrint    = ["Approximate Date of Print:", main("approxDateOfPrint").value];
+		item.school     = ["School:", schoolValue];
 		item.value        = ["Value:", main("value").value];
 		item.datePrinted   = ["Date Printed:", main("datePrinted").value];
 		item.dateAdded     = ["Date Acquired:", main("dateAdded").value];
+
 		item.additionalComments = ["Comments:", main("additionalComments").value];
-	localStorage.setItem(id, JSON.stringify(item));    // stringify our object to a string
+	localStorage.setItem(id, JSON.stringify(item));
 	alert("Print saved");
 }
 
@@ -119,7 +137,7 @@ function getData() {
 			makeSubli.innerHTML = optSubText;
 			makeSublist.appendChild(linksLi);
 		}	
-	    makeItemLinks(localStorage.key(i), linksLi); // edit and delete buttons
+	    makeItemLinks(localStorage.key(i), linksLi);
 	}
 }
 
@@ -131,12 +149,7 @@ function getImage(imgName, makeSublist) {
 	imageLi.appendChild(newImg);
 }
 
-function autoFillData () {
-	for(var n in json) {
-		var id = Math.floor(Math.random() * 19760110);
-		localStorage.setItem(id, JSON.stringify(json[n]));	
-	}
-}
+
 
 function makeItemLinks(key, linksLi) {
 	var editLink       = document.createElement("a");
@@ -169,23 +182,25 @@ function editItem() {
 	main("groups").value   = item.group[1];
 	main("printName").value = item.printName[1];
     main("approxDateOfPrint").value = item.approxDateOfPrint[1];
+
+
 	
 	
-	var radios = document.forms[0].version;
+	var radios = document.forms[0].school;
 	for (i = 0; i < radios.length; i++){
-		if (radios[i].value == "Kaigetsudo" && item.version[1] == "Kaigetsudo") {
+		if (radios[i].value == "Kaigetsudo" && item.school[1] == "Kaigetsudo") {
 			radios[i].setAttribute("checked", "checked");
 		} 
-		if (radios[i].value == "Torii" && item.version[1] == "Torii") {
+		if (radios[i].value == "Torii" && item.school[1] == "Torii") {
 			radios[i].setAttribute("checked", "checked");
 		}
-		if (radios[i].value == "Katsukawa" && item.version[1] == "Katsukawa") {
+		if (radios[i].value == "Katsukawa" && item.school[1] == "Katsukawa") {
 			radios[i].setAttribute("checked", "checked");
 		}
-		if (radios[i].value == "Utagawa" && item.version[1] == "Utagawa") {
+		if (radios[i].value == "Utagawa" && item.school[1] == "Utagawa") {
 			radios[i].setAttribute("checked", "checked");
 		}
-		if (radios[i].value == "Sosaku" && item.version[1] == "Sosaku") {
+		if (radios[i].value == "Sosaku" && item.school[1] == "Sosaku") {
 			radios[i].setAttribute("checked", "checked");
 		}
 	 }
@@ -229,9 +244,12 @@ function clearLocal() {
 function validate(e) {
 	var getGroup     = main("groups");
 	var getprintName  = main("printName");
-	var getcost      = main("value");
-	var getdatePrint = main("datePrinted");
-	var getdateGot   = main("dateAdded");
+    var getapproxDateOfPrint  = main("approxDateOfPrint");
+    var getschool   = main("school");
+	var getvalue      = main("value");
+	var getdatePrinted = main("datePrinted");
+
+	var getdateAdded   = main("dateAdded");
 
 
 	var messageAry = [];
@@ -246,23 +264,29 @@ function validate(e) {
 		getprintName.style.border = "1px solid red";
 		messageAry.push(printNameError);
 	}
-	
-	if (getcost.value === "") {
-		var costError = "Please Enter A Value.";
-		getcost.style.border = "1px solid red";		
-		messageAry.push(costError);
+
+    if (getapproxDateOfPrint.value === "") {
+        var approxDateOfPrintError = "Please Pick A Date";
+        getapproxDateOfPrint.style.border = "1px solid red";
+        messageAry.push(approxDateOfPrintError);
+    }
+
+    if (getschool.value === "") {
+        var schoolError = "Please Pick A Date";
+        getschool.style.border = "1px solid red";
+        messageAry.push(schoolError);
+    }
+
+	if (getdatePrinted.value === "") {
+		var datePrintedError = "Please A Date";
+		getdatePrinted.style.border = "1px solid red";
+		messageAry.push(datePrintedError);
 	}
-	
-	if (getdatePrint.value === "") {
-		var datePrintError = "Please A Date";
-		getdatePrint.style.border = "1px solid red";		
-		messageAry.push(datePrintError);
-	}
-	
-	if (getdateGot.value === "") {
-		var dateGotError = "Please Enter A Date";
-		getdateGot.style.border = "1px solid red";
-		messageAry.push(dateGotError);
+
+	if (getdateAdded.value === "") {
+		var dateAddedError = "Please Enter A Date";
+		getdateAdded.style.border = "1px solid red";
+		messageAry.push(dateAddedError);
 	}
 	
 	if(messageAry.length >= 1) {
@@ -281,7 +305,7 @@ function validate(e) {
 
 // variable for drop down
     var printArtists = ["*Select Artist*", "Hokusai", "Kuniyoshi", "Yoshitoshi"],
-	versionValue,
+	schoolValue,
 	errMsg    = main("errors");
 makeCats();
 
@@ -292,7 +316,6 @@ var clearLink = main("clear");
 clearLink.addEventListener("click", clearLocal);
 var save = main("submit");
 save.addEventListener("click", validate);
-
 
 
 
