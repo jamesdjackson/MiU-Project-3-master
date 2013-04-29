@@ -20,24 +20,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Sample-main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Volumes/10.7/Downloads/Sample-main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GOLD/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="8" selection-start="160" selection-end="2796" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Jquery-main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GOLD/js/Jquery-main.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,10 +29,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GOLD/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="98" selection-start="1376" selection-end="1376" vertical-scroll-proportion="-6.4">
+            <state line="5" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.12195122">
               <folding>
                 <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -58,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BRONZE/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="820" selection-end="820" vertical-scroll-proportion="0.6627219">
+            <state line="28" column="0" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,7 +52,16 @@
       <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GOLD/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1396" selection-end="1396" vertical-scroll-proportion="-12.12">
+            <state line="36" column="0" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GOLD/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="8" selection-start="160" selection-end="2796" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,10 +97,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1920" />
-    <option name="y" value="-451" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="7" />
+    <option name="y" value="22" />
+    <option name="width" value="1419" />
+    <option name="height" value="829" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -219,14 +210,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-451" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <frame x="7" y="22" width="1419" height="829" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24087591" sideWeight="0.9950793" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10226674" sideWeight="0.7591241" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07593123" sideWeight="0.6737288" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -235,6 +225,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32627118" sideWeight="0.9990291" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -309,65 +300,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GOLD/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="2" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="2" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GOLD/js/libs/modernizr.custom.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2931" selection-start="3047" selection-end="3047" vertical-scroll-proportion="0.023952097">
-          <folding />
-        </state>
+        <state line="3" column="2931" selection-start="3047" selection-end="3047" vertical-scroll-proportion="0.023952097" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../VFW_W2/jackson_james_project2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="73" selection-end="453" vertical-scroll-proportion="-3.84">
-          <folding />
-        </state>
+        <state line="6" column="9" selection-start="73" selection-end="453" vertical-scroll-proportion="-3.84" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../VFW+W3/jackson_james_project3/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="9" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.583691">
-          <folding />
-        </state>
+        <state line="34" column="9" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.583691" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GOLD/js/json.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="49" selection-start="12198" selection-end="12198" vertical-scroll-proportion="4.0171676">
-          <folding />
-        </state>
+        <state line="234" column="49" selection-start="12198" selection-end="12198" vertical-scroll-proportion="4.0171676" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BRONZE/js/json.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="49" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.4874864">
-          <folding />
-        </state>
+        <state line="28" column="49" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.4874864" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BRONZE/additem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="15" selection-start="3521" selection-end="3521" vertical-scroll-proportion="0.82051283">
-          <folding />
-        </state>
+        <state line="55" column="15" selection-start="3521" selection-end="3521" vertical-scroll-proportion="0.82051283" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BRONZE/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="29" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.5606277">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/10.7/Downloads/Sample-main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="88" column="29" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.5606277" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GOLD/js/main.js">
@@ -386,24 +354,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GOLD/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1396" selection-end="1396" vertical-scroll-proportion="-12.12">
+        <state line="36" column="0" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BRONZE/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GOLD/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="98" selection-start="1376" selection-end="1376" vertical-scroll-proportion="-6.4">
+        <state line="5" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.12195122">
           <folding>
             <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BRONZE/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="820" selection-end="820" vertical-scroll-proportion="0.6627219">
-          <folding />
         </state>
       </provider>
     </entry>
