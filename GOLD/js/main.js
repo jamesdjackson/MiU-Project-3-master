@@ -63,23 +63,7 @@ function toggleControls(n) {
 			return false;
 	}
 }
-/*    function retrieveToggle(){
-        if(main('recordComplete').checked) {
-            recordComplete = 'Yes';
-        }else{
-            recordComplete = 'No'
-        }
-    }
 
-
-    function retrieveCheckbox(){
-        if(main('personalCollection').checked) {
-            personalCollection  = 'Yes';
-        }else{
-            personalCollection  = 'No'
-        }
-    }
-*/
 
 // function for storing input data from form
 function storeData(key) {

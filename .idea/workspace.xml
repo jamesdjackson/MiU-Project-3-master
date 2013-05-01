@@ -32,7 +32,11 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GOLD/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="5" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.12195122">
+=======
+            <state line="46" column="37" selection-start="1759" selection-end="1759" vertical-scroll-proportion="-24.44">
+>>>>>>> WEDNESDAY COMMIT
               <folding>
                 <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -58,10 +62,17 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GOLD/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="8" selection-start="160" selection-end="2796" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GOLD/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="0" selection-start="1607" selection-end="1607" vertical-scroll-proportion="-0.13069016">
+>>>>>>> WEDNESDAY COMMIT
               <folding />
             </state>
           </provider>
@@ -87,19 +98,25 @@
         <option value="$PROJECT_DIR$/../VFW+W3/jackson_james_project3/main.js" />
         <option value="$PROJECT_DIR$/BRONZE/js/main.js" />
         <option value="$PROJECT_DIR$/BRONZE/additem.html" />
-        <option value="$PROJECT_DIR$/GOLD/js/main.js" />
         <option value="/Volumes/10.7/Downloads/Sample-main.js" />
         <option value="$PROJECT_DIR$/GOLD/js/Jquery-main.js" />
         <option value="$PROJECT_DIR$/GOLD/about.html" />
         <option value="$PROJECT_DIR$/GOLD/index.html" />
         <option value="$PROJECT_DIR$/BRONZE/index.html" />
+        <option value="$PROJECT_DIR$/GOLD/js/main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="7" />
     <option name="y" value="22" />
     <option name="width" value="1419" />
+=======
+    <option name="x" value="8" />
+    <option name="y" value="22" />
+    <option name="width" value="1062" />
+>>>>>>> WEDNESDAY COMMIT
     <option name="height" value="829" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -148,6 +165,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="GOLD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MiU-Project-3-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MiU-Project-3-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GOLD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -210,13 +245,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="7" y="22" width="1419" height="829" extended-state="0" />
+=======
+    <frame x="8" y="22" width="1062" height="829" extended-state="0" />
+>>>>>>> WEDNESDAY COMMIT
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07593123" sideWeight="0.6737288" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21270452" sideWeight="0.6737288" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> WEDNESDAY COMMIT
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -286,6 +329,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GOLD/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="8" selection-start="160" selection-end="2796" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GOLD/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="50" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
@@ -338,13 +388,6 @@
         <state line="88" column="29" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.5606277" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GOLD/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="160" selection-end="2796" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GOLD/js/Jquery-main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="314" column="0" selection-start="10971" selection-end="10971" vertical-scroll-proportion="0.0">
@@ -361,6 +404,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BRONZE/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="36" column="0" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.0">
+=======
+        <state line="28" column="0" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
+>>>>>>> WEDNESDAY COMMIT
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BRONZE/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="28" column="0" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -372,6 +427,19 @@
           <folding>
             <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+        <state line="46" column="37" selection-start="1759" selection-end="1759" vertical-scroll-proportion="-24.44">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GOLD/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="1607" selection-end="1607" vertical-scroll-proportion="-0.13069016">
+          <folding />
+>>>>>>> WEDNESDAY COMMIT
         </state>
       </provider>
     </entry>
