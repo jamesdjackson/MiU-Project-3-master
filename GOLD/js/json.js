@@ -1,8 +1,8 @@
 
 /*
- <!--James Jackson->
- <!--MIU1304-->
- <!--Project 3-->
+ <!--James Jackson-->
+ <!--MIU 1304-->
+ <!--Project 4-->
  */
 
 var json = {

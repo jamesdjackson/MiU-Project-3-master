@@ -1,3 +1,7 @@
+<!--James Jackson-->
+<!--MIU 1304-->
+<!--Project 4-->
+
 $('#printForm').on('pageinit', function(){
 	//code needed for home page goes here
 
@@ -19,6 +23,7 @@ $('#addItem').on('pageinit', function(){
 });
 
 //The functions below can go inside or outside the pageinit function for the page in which it is needed.
+
 
 
     // getting element by ID

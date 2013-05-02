@@ -2,14 +2,11 @@
 
  <!--James Jackson-->
  <!--MIU 1304-->
- <!--Project 3-->
+ <!--Project 4-->
 
 */
 // Wait until the DOM has loaded
 window.addEventListener("DOMContentLoaded", function () {
-
-
-
 
 // getting element by ID
 function main(i) {
@@ -63,7 +60,23 @@ function toggleControls(n) {
 			return false;
 	}
 }
+/*    function retrieveToggle(){
+        if(main('recordComplete').checked) {
+            recordComplete = 'Yes';
+        }else{
+            recordComplete = 'No'
+        }
+    }
 
+
+    function retrieveCheckbox(){
+        if(main('personalCollection').checked) {
+            personalCollection  = 'Yes';
+        }else{
+            personalCollection  = 'No'
+        }
+    }
+*/
 
 // function for storing input data from form
 function storeData(key) {
@@ -88,11 +101,13 @@ function storeData(key) {
 	alert("Print saved");
 }
 
+
+
 function getData() {
 	toggleControls("on");
 	if (localStorage.length === 0) {
 		alert("There were nor records, so I automagically added some!.");
-		autoFillData();
+        automagicRecords();
 	}
 	// local storage to the browser
 	var makeDiv  = document.createElement("div");
@@ -124,6 +139,12 @@ function getData() {
 	    makeItemLinks(localStorage.key(i), linksLi);
 	}
 }
+
+function automagicRecords () {
+    for(var n in json) {
+            var id = Math.floor(Math.random() * 19760110);
+            localStorage.setItem(id, JSON.stringify(json[n]));	}
+    }
 
 function getImage(imgName, makeSublist) {
 	var imageLi = document.createElement("li");

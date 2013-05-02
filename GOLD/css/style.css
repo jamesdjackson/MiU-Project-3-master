@@ -13,6 +13,17 @@
 /* Swatches */
 /* A
 -----------------------------------------------------------------------------------------------------------*/
+
+
+.ui-page {
+    background-image: url("/Project4/GOLD/Images/background.png");
+    width: 320px;
+    height: 480px;
+    text-align: center;
+}
+
+
+
 .ui-bar-a {
 	border: 1px solid #383824 /*{a-bar-border}*/;
 	background: #383824 /*{a-bar-background-color}*/;
@@ -63,7 +74,6 @@
 	background-image:         linear-gradient( #00161e /*{a-body-background-start}*/, #001219 /*{a-body-background-end}*/);
 }
 .ui-overlay-a {
-	background-image: none;
 	border-width: 0;
 }
 .ui-body-a,
@@ -200,7 +210,6 @@
 	background-image:         linear-gradient( #00161e /*{b-body-background-start}*/, #001219 /*{b-body-background-end}*/);
 }
 .ui-overlay-b {
-	background-image: none;
 	border-width: 0;
 }
 .ui-body-b,
@@ -339,7 +348,6 @@
 	background-image:         linear-gradient( #00161e /*{c-body-background-start}*/, #001219 /*{c-body-background-end}*/);
 }
 .ui-overlay-c {
-	background-image: none;
 	border-width: 0;
 }
 .ui-body-c,
@@ -401,6 +409,7 @@
 	color: #2f3e46 /*{c-bhover-color}*/;
 }
 .ui-btn-down-c {
+
 	border: 1px solid #bbbbbb /*{c-bdown-border}*/;
 	background: #d6d6d6 /*{c-bdown-background-color}*/;
 	font-weight: bold;
@@ -421,7 +430,7 @@
 .ui-btn-up-c,
 .ui-btn-hover-c,
 .ui-btn-down-c {
-	  font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
+	font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
 	text-decoration: none;
 }
 
@@ -478,6 +487,7 @@
 	background-image:         linear-gradient( #f9f9f9 /*{d-body-background-start}*/, #eeeeee /*{d-body-background-end}*/);
 }
 .ui-overlay-d {
+
 	background-image: none;
 	border-width: 0;
 }
@@ -503,6 +513,7 @@
 }
 .ui-body-d .ui-link:active {
 	color: #2489ce /*{d-body-link-active}*/;
+
 }
 .ui-btn-up-d {
 	border: 1px solid 		#cccccc /*{d-bup-border}*/;
@@ -526,6 +537,7 @@
 	background: 			#dfdfdf /*{d-bhover-background-color}*/;
 	font-weight: bold;
 	color: 					#222222 /*{d-bhover-color}*/;
+
 	text-shadow: 0 /*{d-bhover-shadow-x}*/ 1px /*{d-bhover-shadow-y}*/ 0 /*{d-bhover-shadow-radius}*/ #ffffff /*{d-bhover-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #f6f6f6 /*{d-bhover-background-start}*/), to( #e0e0e0 /*{d-bhover-background-end}*/)); /* Saf4+, Chrome */
 	background-image: -webkit-linear-gradient( #f6f6f6 /*{d-bhover-background-start}*/, #e0e0e0 /*{d-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
@@ -566,7 +578,7 @@
 
 
 /* Structure */
-/* links within "buttons" 
+/* links within "buttons"
 -----------------------------------------------------------------------------------------------------------*/
 a.ui-link-inherit {
 	text-decoration: none !important;
@@ -740,12 +752,12 @@ a.ui-link-inherit {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3),
        only screen and (min--moz-device-pixel-ratio: 1.3),
        only screen and (min-resolution: 200dpi) {
-	
+
 	.ui-icon-plus, .ui-icon-minus, .ui-icon-delete, .ui-icon-arrow-r,
 	.ui-icon-arrow-l, .ui-icon-arrow-u, .ui-icon-arrow-d, .ui-icon-check,
 	.ui-icon-gear, .ui-icon-refresh, .ui-icon-forward, .ui-icon-back,
 	.ui-icon-grid, .ui-icon-star, .ui-icon-alert, .ui-icon-info, .ui-icon-home, .ui-icon-bars, .ui-icon-edit,
-	.ui-icon-search, .ui-icon-searchfield:after, 
+	.ui-icon-search, .ui-icon-searchfield:after,
 	.ui-icon-checkbox-off, .ui-icon-checkbox-on, .ui-icon-radio-off, .ui-icon-radio-on {
 		background-image: url(images/icons-36-white.png);
 		-moz-background-size: 864px 18px;
@@ -825,7 +837,7 @@ a.ui-link-inherit {
 	}
 	.ui-icon-bars {
 		background-position: 	-788px 50%;
-	
+
 	}.ui-icon-edit {
 		background-position: 	-824px 50%;
 	}
@@ -838,7 +850,7 @@ a.ui-link-inherit {
 }
 .ui-icon-checkbox-off,
 .ui-icon-radio-off {
-	background-color: transparent;	
+	background-color: transparent;
 }
 .ui-checkbox-on .ui-icon,
 .ui-radio-on .ui-icon {
@@ -846,7 +858,7 @@ a.ui-link-inherit {
 }
 /* loading icon */
 .ui-icon-loading {
-	background: url(images/ajax-loader.gif);
+	background: url(images/ajax-loader.png);
 	background-size: 46px 46px;
 }
 /* Button corner class
@@ -916,7 +928,7 @@ a.ui-link-inherit {
 .ui-input-search.ui-focus {
 	-moz-box-shadow: 0 0 12px #718c44 /*{global-active-background-color}*/;
 	-webkit-box-shadow: 0 0 12px #718c44 /*{global-active-background-color}*/;
-	box-shadow: 0 0 12px #718c44 /*{global-active-background-color}*/;	
+	box-shadow: 0 0 12px #718c44 /*{global-active-background-color}*/;
 }
 /* unset box shadow in browsers that don't do it right
 -----------------------------------------------------------------------------------------------------------*/
@@ -932,4 +944,3 @@ a.ui-link-inherit {
 	outline-width: 1px;
 	outline-style: auto;
 }
-			
