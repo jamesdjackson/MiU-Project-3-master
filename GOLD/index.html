@@ -18,19 +18,30 @@
 <body>
 
 <div data-role="page" id="index">
-
-    <h1><img alt="Print Image"  src="Images/BANNER.png" width="380" height="280"/></h1>
-
-    <fieldset data-role="listview" data-position="fixed" data-inset="true" data-theme="a">
-    <li><a href="#categories" data-transition="fade" data-icon="arrow-r" data-iconpos="right" id="addButton">Browse Print Categories</a></li>
-    </fieldset>
+    <div data-role="header" data-position="fixed" data-theme="a" id="firstHeader">
+        <h1>PRINT KEEPER</h1>
     </div>
-
-
-
+    <div data-role="content" id="screenOne">
+        <h1><img alt="Print Image"  src="Images/banner_sm.png" width="320" height="75"/></h1>
+        <p>Your Print Collection In Your Pocket</p>
+        <ul data-role="listview" data-inset="true" data-theme="a">
+            <li><a href="#categories" data-icon="arrow-r" data-iconpos="right" id="addButton">Browse Print Categories</a></li>
+        </ul>
+    </div>
+    <div data-role="footer" data-position="fixed" data-theme="a">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="about.html" class="ui-btn-active" data-icon="home">About</a></li>
+                <li><a href="https://github.com/jamesdjackson/MiU/tree/gh-pages" data-icon="grid">Github</a></li>
+                <li><a href="#enter" data-icon="plus">Add Print</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
 
 <div data-role="page" id="enter" >
+
+    <h1><img alt="Print Image"  src="Images/banner_sm.png" width="320" height="75"/></h1>
 
     <div data-role="header" data-position="fixed" data-theme="a">
         <nav>
@@ -42,8 +53,7 @@
         <form action="#" method="post" id="printForm" onSubmit="stamp()" name="alerts">
             <fieldset id="printFieldset">
 
-                <h1>ADD A PRINT </h1>
-                <h1><img alt="Print Image" src="Images/BANNER.png" width="300" height="280"/></h1>
+
 
                 <p>*Required Fields</p>
                 <ul id="errors"></ul>
@@ -119,8 +129,7 @@
 
 <div data-role="page" id="categories"
 <div data-role="content">
-<h1>BY CATEGORY</h1>
-<h1><img alt="Print Image"  src="Images/BANNER.png" width="380" height="280"/></h1>
+    <h1><img alt="Print Image"  src="Images/banner_sm.png" width="320" height="75"/></h1>
     <div data-role="header" data-position="fixed" data-theme="a">
     </div>
     <div data-role="content">
